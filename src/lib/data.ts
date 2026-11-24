@@ -20,7 +20,7 @@ export const profile = {
 };
 
 export const heroStats = [
-  { value: 18, suffix: "", label: "residentes liderados", detail: "2 squads simultâneas na Aponti" },
+  { value: 18, suffix: "", label: "residentes liderados", detail: "2 squads simultâneas · Residência BFD25" },
   { value: 597, suffix: "h", label: "de formação técnica", detail: "QA, testes, TI e design thinking" },
   { value: 27, suffix: "", label: "projetos ranqueados", detail: "NASA Space Apps Recife 2026" },
   { value: 1, suffix: "", label: "artigo científico", detail: "autor principal · Residência BFD25" },
@@ -71,11 +71,11 @@ export const achievements = [
     tag: "Hackathon global",
     date: "nov 2026",
     title: "NASA Space Apps Challenge — Recife",
-    badge: "Galactic Team Member",
+    badge: "Product Owner voluntário · Discord",
     points: [
-      "Edição com 271 inscritos, 161 participantes, 53 equipes e 36 projetos submetidos.",
-      "Auditoria técnica do servidor Discord: permissões, anti-phishing, cargos e checklist oficial.",
-      "Consolidação do ranking final de 27 projetos em 5 critérios de mesmo peso.",
+      "PO voluntário do servidor Discord do evento: 271 inscritos, 161 participantes, 53 equipes e 36 projetos.",
+      "Auditoria técnica com plano de correção: permissões, anti-phishing, cargos e checklist oficial.",
+      "Consolidação do ranking final de 27 projetos em 5 critérios. Reconhecido como Galactic Team Member.",
     ],
   },
   {
@@ -91,7 +91,7 @@ export const achievements = [
   },
   {
     tag: "Liderança",
-    date: "mai 2026 → hoje",
+    date: "mai – jun 2026",
     title: "Product Owner de 2 squads",
     badge: "Aponti · BFD25",
     points: [
@@ -143,19 +143,19 @@ export const trainingHours = [
 
 export const timeline = [
   {
-    period: "2026 → hoje",
-    role: "Product Owner Residente & Facilitador Ágil",
-    org: "Aponti",
+    period: "nov 2026",
+    role: "Product Owner Voluntário — Discord",
+    org: "NASA Space Apps Challenge Recife",
     current: true,
-    text: "Discovery com stakeholders, backlog e roadmap de 2 produtos, PRDs, BDD e cerimônias Scrum com Jira e ClickUp. Documentação e validação de requisitos assistidas por IA.",
-    tags: ["Discovery", "PRD", "BDD", "ClickUp", "IA Generativa"],
+    text: "Responsável pelo produto Discord do evento: auditoria de permissões, segurança anti-phishing, cargos e conformidade com o checklist oficial, além da consolidação do ranking final. Certificado como Galactic Team Member.",
+    tags: ["Product Owner", "Comunidade", "Segurança", "Dados"],
   },
   {
-    period: "nov 2026",
-    role: "Galactic Team Member",
-    org: "NASA Space Apps Challenge Recife",
-    text: "Auditoria técnica do servidor Discord do evento e consolidação do ranking final por critério.",
-    tags: ["Comunidade", "Segurança", "Dados"],
+    period: "mai – jun 2026",
+    role: "Product Owner Residente & Facilitador Ágil",
+    org: "Aponti · Residência BFD25",
+    text: "Discovery com stakeholders, backlog e roadmap de 2 produtos, PRDs, BDD e cerimônias Scrum com Jira e ClickUp. Documentação e validação de requisitos assistidas por IA.",
+    tags: ["Discovery", "PRD", "BDD", "ClickUp", "IA Generativa"],
   },
   {
     period: "2024 – 2025",

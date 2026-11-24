@@ -206,7 +206,7 @@ export function Timeline() {
                   {t.role}
                   {t.current && (
                     <span className="ml-2 inline-flex translate-y-[-2px] items-center rounded-full bg-accent-2/10 px-2 py-0.5 align-middle text-[10px] font-medium uppercase tracking-wider text-accent-2">
-                      Atual
+                      Mais recente
                     </span>
                   )}
                 </h3>

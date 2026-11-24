@@ -31,14 +31,14 @@ function RotatingRole() {
 }
 
 const steps = [
-  { label: "Discovery com stakeholders", done: true },
-  { label: "PRD + histórias em BDD", done: true },
-  { label: "Refinamento assistido por IA", done: true },
-  { label: "Sprint review", done: false },
+  { label: "Auditoria do servidor · 32 canais", done: true },
+  { label: "Checklist oficial · 8 requisitos", done: true },
+  { label: "Plano anti-phishing e de cargos", done: true },
+  { label: "Ranking final · 27 projetos", done: true },
 ];
 
 function ProductCockpit() {
-  const pct = 61;
+  const pct = 68; // 36 projetos submetidos de 53 equipes
   const r = 34;
   const c = 2 * Math.PI * r;
   return (
@@ -50,17 +50,17 @@ function ProductCockpit() {
     >
       <div className="mb-4 flex items-center justify-between">
         <div>
-          <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink-3">Squad · BFD25</p>
-          <p className="text-sm font-medium text-ink">Aponti Talentos</p>
+          <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink-3">PO voluntário · Discord</p>
+          <p className="text-sm font-medium text-ink">NASA Space Apps Recife</p>
         </div>
         <span className="inline-flex items-center gap-1.5 rounded-full border border-good/30 bg-good/10 px-2 py-0.5 text-[11px] text-good">
           <span className="size-1.5 animate-pulse rounded-full bg-good" />
-          em sprint
+          entregue
         </span>
       </div>
 
       <div className="flex items-center gap-4">
-        <svg width="84" height="84" viewBox="0 0 84 84" role="img" aria-label={`${pct}% das tarefas concluídas`}>
+        <svg width="84" height="84" viewBox="0 0 84 84" role="img" aria-label={`${pct}% das equipes submeteram projeto`}>
           <circle cx="42" cy="42" r={r} fill="none" stroke="rgb(255 255 255 / 0.08)" strokeWidth="7" />
           <motion.circle
             cx="42"
@@ -87,9 +87,9 @@ function ProductCockpit() {
           </text>
         </svg>
         <div className="space-y-1 text-xs text-ink-2">
-          <p><span className="font-semibold text-ink">11</span> residentes</p>
-          <p><span className="font-semibold text-ink">4</span> sprints quinzenais</p>
-          <p>tarefas concluídas</p>
+          <p><span className="font-semibold text-ink">161</span> participantes</p>
+          <p><span className="font-semibold text-ink">53</span> equipes</p>
+          <p>submeteram projeto</p>
         </div>
       </div>
 
@@ -115,7 +115,7 @@ function ProductCockpit() {
       </ul>
 
       <div className="mt-5 rounded-xl border border-line bg-bg/60 px-3 py-2.5 font-mono text-[11px] text-ink-3">
-        <span className="text-accent-2">›</span> gerando critérios de aceite
+        <span className="text-accent-2">›</span> auditando permissões do servidor
         <motion.span
           className="ml-0.5 inline-block h-3 w-1.5 translate-y-0.5 bg-accent-2"
           animate={{ opacity: [1, 0, 1] }}

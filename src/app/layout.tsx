@@ -13,7 +13,7 @@ const serif = Instrument_Serif({
 });
 
 const description =
-  "Pablo da Matta — AI Product Owner em Recife. Discovery, MVP, PRD e entrega com qualidade, unindo negócio, QA e IA generativa. PO de 2 squads na Aponti, NASA Space Apps Recife 2026 e autor de artigo sobre a Residência BFD25.";
+  "Pablo da Matta — AI Product Owner em Recife. Discovery, MVP, PRD e entrega com qualidade, unindo negócio, QA e IA generativa. Product Owner voluntário do Discord do NASA Space Apps Recife 2026, ex-PO de 2 squads na Residência BFD25 (Aponti) e autor de artigo sobre o programa.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(profile.site),
