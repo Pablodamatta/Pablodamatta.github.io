@@ -11,6 +11,7 @@ import {
   Check,
   Copy,
   FlaskConical,
+  Lock,
   GraduationCap,
   Mail,
   Rocket,
@@ -292,9 +293,13 @@ export function Projects() {
                         <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-ink-3">{p.kind}</p>
                         <h3 className="mt-2 text-xl font-semibold tracking-tight text-ink">{p.title}</h3>
                       </div>
-                      {p.href && (
+                      {p.href ? (
                         <span className="grid size-10 shrink-0 place-items-center rounded-full border border-line text-ink-2 transition group-hover:border-accent/60 group-hover:bg-accent group-hover:text-white">
                           <ArrowUpRight size={18} />
+                        </span>
+                      ) : (
+                        <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-line px-3 py-1 text-xs text-ink-3">
+                          <Lock size={12} /> Repositório privado
                         </span>
                       )}
                     </div>

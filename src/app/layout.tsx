@@ -13,16 +13,15 @@ const serif = Instrument_Serif({
 });
 
 const description =
-  "Pablo da Matta — AI Product Owner em Recife. Discovery, MVP, PRD e entrega com qualidade, unindo negócio, QA e IA generativa. Product Owner voluntário do Discord do NASA Space Apps Recife 2026, ex-PO de 2 squads na Residência BFD25 (Aponti) e autor de artigo sobre o programa.";
+  "Pablo da Matta — Product Owner e Analista de QA em Recife. Discovery, MVP, PRD e entrega com qualidade, unindo negócio, QA e IA generativa. Product Owner voluntário do Discord do NASA Space Apps Recife 2026, ex-PO de 2 squads na Residência BFD25 (Aponti) e autor de artigo sobre o programa.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(profile.site),
-  title: "Pablo da Matta · AI Product Owner",
+  title: "Pablo da Matta · Product Owner | Analista de QA",
   description,
   keywords: [
     "Product Owner",
-    "AI Product Owner",
-    "Product Manager",
+    "Analista de QA",
     "QA",
     "Recife",
     "Scrum",
@@ -31,7 +30,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: profile.fullName, url: profile.site }],
   openGraph: {
-    title: "Pablo da Matta · AI Product Owner",
+    title: "Pablo da Matta · Product Owner | Analista de QA",
     description,
     url: profile.site,
     siteName: "Pablo da Matta",
@@ -41,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Pablo da Matta · AI Product Owner",
+    title: "Pablo da Matta · Product Owner | Analista de QA",
     description,
     images: ["/pablo.jpg"],
   },

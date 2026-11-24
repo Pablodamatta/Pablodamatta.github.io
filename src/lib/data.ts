@@ -5,17 +5,16 @@
 export const profile = {
   name: "Pablo da Matta",
   fullName: "Pablo Almeida da Matta",
-  role: "AI Product Owner",
+  role: "Product Owner | Analista de QA",
   location: "Recife, PE · Híbrido / Remoto",
   email: "pablodamatta34@gmail.com",
   linkedin: "https://www.linkedin.com/in/pablo-damatta/",
   github: "https://github.com/Pablodamatta",
   site: "https://pablodamatta.github.io",
   rotating: [
-    "AI Product Owner",
-    "Product Manager",
+    "Product Owner",
+    "Analista de QA",
     "Facilitador Ágil",
-    "QA Engineer",
   ],
 };
 

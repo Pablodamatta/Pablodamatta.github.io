@@ -223,7 +223,7 @@ export function Funnel({ data }: { data: Datum[] }) {
         return (
           <div key={d.label}>
             {conv !== null && (
-              <p className="py-1 text-center font-mono text-[10px] text-ink-3">↓ {conv}%</p>
+              <p className="py-1 text-center font-mono text-[10px] text-ink-3">→ {conv}%</p>
             )}
             <div className="relative flex h-10 items-center justify-center">
               <motion.div
